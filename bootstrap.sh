@@ -6,7 +6,7 @@
 # Updated by cryptopool.builders for crypto use...
 # This script is intended to be run like this:
 #
-#   curl https://raw.githubusercontent.com/cryptopool-builders/Multi-Pool-Installer/master/bootstrap.sh | bash
+#   curl https://raw.githubusercontent.com/bunbunbunbunbunny/Multi-Pool-Installer/master/bootstrap.sh | bash
 #
 #########################################################
 if [ -z "${TAG}" ]; then
@@ -26,7 +26,7 @@ if [ ! -d $HOME/multipool ]; then
 	echo Downloading MultiPool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
-		https://github.com/cryptopool-builders/multipool_setup \
+		https://github.com/bunbunbunbunbunny/multipool_setup \
 		"$HOME"/multipool/install \
 		< /dev/null 2> /dev/null
 
