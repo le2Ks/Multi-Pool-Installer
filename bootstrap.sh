@@ -23,7 +23,7 @@ if [ ! -d $HOME/multipool ]; then
 		echo
 	fi
 
-	echo Downloading MultiPool Installer ${TAG}. . .
+	echo Downloading bunbunbunbunbunny MultiPool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
 		https://github.com/bunbunbunbunbunny/multipool_setup \
@@ -39,7 +39,7 @@ cd $HOME/multipool/install
 # Update it.
 sudo chown -R $USER $HOME/multipool/install/.git/
 if [ "${TAG}" != `git describe --tags` ]; then
-	echo Updating MultiPool Installer to ${TAG} . . .
+	echo Updating bunbunbunbunbunny MultiPool Installer to ${TAG} . . .
 	git fetch --depth 1 --force --prune origin tag ${TAG}
 	if ! git checkout -q ${TAG}; then
 		echo "Update failed. Did you modify something in `pwd`?"
