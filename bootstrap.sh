@@ -14,7 +14,7 @@
 	
 	echo Downloading bunbunbunbunbunny MultiPool Installer ${TAG}. . .
 	
-	
+	apt-get install git;
 	mkdir multipool;
 	cd multipool;
 	mkdir install;
