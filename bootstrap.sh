@@ -10,10 +10,6 @@
 #
 #########################################################
 
-# Clone the MultiPool repository if it doesn't exist.
-		echo Installing git . . .
-		apt-get -q -q update
-		DEBIAN_FRONTEND=noninteractive apt-get -q -q install -y git < /dev/null
 
 	
 	echo Downloading bunbunbunbunbunny MultiPool Installer ${TAG}. . .
