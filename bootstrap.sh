@@ -13,13 +13,20 @@
 
 	
 	echo Downloading bunbunbunbunbunny MultiPool Installer ${TAG}. . .
-
-	git clone https://github.com/bunbunbunbunbunny/multipool_setup;
+	
+	
 	mkdir multipool;
 	cd multipool;
 	mkdir install;
 	cd;
+	git clone https://github.com/bunbunbunbunbunny/multipool_setup;
+	
+clear
+	echo Copying files ${TAG}. . . 
+	
+	
 	cp -a multipool_setup/. multipool/install/;
-	sudo chmod 775 -R multipool;
+	chmod 775 -R multipool;
+	rm -rf multipool_setup; rm -rf Multi-Pool-Installer;
 	bash multipool/install/start.sh;
 	
