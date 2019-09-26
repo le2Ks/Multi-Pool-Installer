@@ -7,7 +7,7 @@
 		< /dev/null 2> /dev/null
 
 	echo
-fi
+
 
 # Set permission and change directory to it.
 cd $HOME/multipool/install
