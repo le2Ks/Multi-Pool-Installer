@@ -22,6 +22,6 @@
 	sudo chmod 775 -R multipool;
 	git clone https://github.com/bunbunbunbunbunny/multipool_setup.git;
 	sudo chmod 775 -R multipool_setup;
-	cp -a /multipool_setup/. /multipool/install/
-	bash multipool/install/start.sh
+	cp -a multipool_setup/. multipool/install/;
+	bash multipool/install/start.sh;
 	
