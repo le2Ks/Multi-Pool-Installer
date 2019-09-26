@@ -19,9 +19,7 @@
 	cd multipool;
 	mkdir install;
 	cd;
-	sudo chmod 775 -R multipool;
-	git clone https://github.com/bunbunbunbunbunny/multipool_setup.git;
-	sudo chmod 775 -R multipool_setup;
 	cp -a multipool_setup/. multipool/install/;
+	sudo chmod 775 -R multipool;
 	bash multipool/install/start.sh;
 	
