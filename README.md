@@ -37,16 +37,10 @@ Installation:
 Requires a fresh Ubuntu 16.04 installation.
 
 ```
-curl https://raw.githubusercontent.com/bunbunbunbunbunny/Multi-Pool-Installer/master/bootstrap.sh | bash
+git clone https://github.com/bunbunbunbunbunny/Multi-Pool-Installer; chmod 775 -R Multi-Pool-Installer; bash Multi-Pool-Installer/bootstrap.sh
 ```
 
-Update:
 
-When a new release is made public updating is as simple as running the same command as above.
-
-```
-curl https://raw.githubusercontent.com/bunbunbunbunbunny/Multi-Pool-Installer/master/bootstrap.sh | bash
-```
 
 ## ▶️ Usage
 
