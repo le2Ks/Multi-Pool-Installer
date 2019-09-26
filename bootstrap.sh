@@ -1,3 +1,8 @@
+
+
+
+
+
 # Clone the MultiPool repository if it doesn't exist.
 	echo Downloading bunbunbunbunbunny MultiPool Installer ${TAG}. . .
 	git clone \
@@ -5,6 +10,10 @@
 		https://github.com/bunbunbunbunbunny/multipool_setup \
 		"$HOME"/multipool/install \
 		< /dev/null 2> /dev/null
+
+
+
+
 
 # Set permission and change directory to it.
 cd $HOME/multipool/install
