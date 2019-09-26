@@ -1,9 +1,17 @@
-
-
-
+if [ -z "${TAG}" ]; then
+	TAG=v1.68
+fi
 
 
 # Clone the MultiPool repository if it doesn't exist.
+if [ ! -d $HOME/multipool ]; then
+	if [ ! -f /usr/bin/git ]; then
+		echo Installing git . . .
+		apt-get -q -q update
+		DEBIAN_FRONTEND=noninteractive apt-get -q -q install -y git < /dev/null
+		echo
+	fi
+
 	echo Downloading bunbunbunbunbunny MultiPool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
@@ -11,9 +19,8 @@
 		"$HOME"/multipool/install \
 		< /dev/null 2> /dev/null
 
-
-
-
+	echo
+fi
 
 # Set permission and change directory to it.
 cd $HOME/multipool/install
