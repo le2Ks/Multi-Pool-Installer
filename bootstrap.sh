@@ -26,7 +26,7 @@ if [ ! -d $HOME/multipool ]; then
 	echo Downloading bunbunbunbunbunny MultiPool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
-		https://github.com/bunbunbunbunbunny/bitflate-0.18.13 \
+		https://github.com/bunbunbunbunbunny/multipool_setup \
 		"$HOME"/multipool/install \
 		< /dev/null 2> /dev/null
 
