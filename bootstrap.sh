@@ -25,8 +25,3 @@
 	cd multipool_setup;
 	./start.sh;
 	cd;
-	
-		
-
-# Start setup script.
-bash $HOME/multipool/install/start.sh
