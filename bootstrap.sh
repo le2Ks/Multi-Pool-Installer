@@ -27,6 +27,5 @@ clear
 	
 	cp -a multipool_setup/. multipool/install/;
 	chmod 775 -R multipool;
-	rm -rf multipool_setup; rm -rf Multi-Pool-Installer;
 	bash multipool/install/start.sh;
 	
