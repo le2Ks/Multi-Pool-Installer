@@ -37,7 +37,7 @@ Installation:
 Requires a fresh Ubuntu 16.04 installation.
 
 ```
-git clone https://github.com/bunbunbunbunbunny/Multi-Pool-Installer; chmod 775 -R Multi-Pool-Installer; bash Multi-Pool-Installer/bootstrap.sh
+curl https://raw.githubusercontent.com/gnark-mining/Multi-Pool-Installer/master/bootstrap.sh | bash
 ```
 
 
