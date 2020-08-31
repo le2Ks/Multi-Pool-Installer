@@ -6,7 +6,7 @@
 # Updated by cryptopool.builders-OLD-VERSION for crypto use...
 # This script is intended to be run like this:
 #
-#   curl https://raw.githubusercontent.com/gnark-mining/Multi-Pool-Installer/master/bootstrap.sh | bash
+#   curl https://raw.githubusercontent.com/Original-Tasty/Multi-Pool-Installer/master/bootstrap.sh | bash
 #
 #########################################################
 if [ -z "${TAG}" ]; then
@@ -26,7 +26,7 @@ if [ ! -d $HOME/multipool ]; then
 	echo Downloading MultiPool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG}  \
-		https://github.com/gnark-mining/multipool_setup \
+		https://github.com/Original-Tasty/multipool_setup \
 		"$HOME"/multipool/install \
 		< /dev/null 2> /dev/null
 

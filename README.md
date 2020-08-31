@@ -37,7 +37,7 @@ Installation:
 Requires a fresh Ubuntu 16.04 installation.
 
 ```
-curl https://raw.githubusercontent.com/gnark-mining/Multi-Pool-Installer/master/bootstrap.sh | bash
+curl https://raw.githubusercontent.com/Original-Tasty/Multi-Pool-Installer/master/bootstrap.sh | bash
 ```
 
 
