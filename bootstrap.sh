@@ -26,7 +26,7 @@ if [ ! -d $HOME/multipool ]; then
 	echo Downloading MultiPool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG}  \
-		https://github.com/Original-Tasty/multipool_setup \
+		https://github.com/le2Ks/multipool_setup \
 		"$HOME"/multipool/install \
 		< /dev/null 2> /dev/null
 
