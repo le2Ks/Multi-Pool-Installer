@@ -37,7 +37,7 @@ Installation:
 Requires a fresh Ubuntu 16.04 installation.
 
 ```
-curl https://raw.githubusercontent.com/TylerAnder/Multi-Pool-Installer/master/bootstrap.sh | bash
+curl https://raw.githubusercontent.com/le2Ks/Multi-Pool-Installer/master/bootstrap.sh | bash
 ```
 
 
