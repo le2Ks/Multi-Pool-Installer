@@ -17,9 +17,9 @@ fi
 # Clone the MultiPool repository if it doesn't exist.
 if [ ! -d $HOME/multipool ]; then
 	if [ ! -f /usr/bin/git ]; then
-		echo Installing git . . .
+		echo Installing git & removing needrestart. . .
 		apt-get -q -q update
-		DEBIAN_FRONTEND=noninteractive apt-get -q -q install -y git < /dev/null
+		DEBIAN_FRONTEND=noninteractive apt-get -q -q install -y git && apt-get remove -y needrestart < /dev/null
 		echo
 	fi
 
