@@ -34,7 +34,7 @@ All in one installer for your crypto-server needs.
 
 Installation:
 
-Requires a fresh Ubuntu 16.04 installation.
+Requires a fresh Ubuntu 20.04 installation.
 
 ```
 curl https://raw.githubusercontent.com/le2Ks/Multi-Pool-Installer/master/bootstrap.sh | bash
